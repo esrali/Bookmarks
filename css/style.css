@@ -1,0 +1,84 @@
+@font-face {
+    font-family: fico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: right;
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+.feco{
+    font-family: fico;
+    font-size: 50px;
+}
+body{
+    background-color: #F7ECDE;
+}
+.feco::before{
+    content: "";
+    width:21%;
+    height: 25%;
+    position: absolute;
+    background-color: #FEC260;
+    left:50%;
+    bottom:3px ;
+    z-index: -1;
+    margin: auto;
+    transition: 0.5s;
+    transform:translateX(-50%)
+}
+.feco:hover::before{
+    height: 55%;
+}
+
+.fa-bookmark{
+    font-size: 25px;
+}
+.ii{
+    color:#40A55B;
+}
+.iii{
+    color:#B2AC49;
+}
+.lon{
+    background-image: linear-gradient(to right,#40A55B,#B2AC49);
+    color:transparent;
+    background-clip: text;
+}
+.lon h1{
+    font-family: right;
+}
+
+.demo{
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    margin-top: 70px;
+}
+.form-control:focus{
+    border-color:  #FEC260 ;
+    box-shadow: 0 0 0 2px #f0ce97 !important ;
+}
+.subbit {
+    --bs-btn-bg: #d15e3e;
+    --bs-btn-border-color: #d15e3e;
+    --bs-btn-hover-color: #D1512D;
+    --bs-btn-hover-bg: #D1512D;
+    --bs-btn-hover-border-color: #D1512D;
+    
+}
+
+.table{
+    --bs-table-bg: #F8F9FA;
+    width:87%;
+    font-size: 17px;
+}
+.visit{
+    background-color: #bdd545;
+}
+.visit:hover{
+    background-color:  #8A9E23;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
